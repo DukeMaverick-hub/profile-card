@@ -1,0 +1,65 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg),
+      url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -18vw -53vh, 48vw 47vh;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .card {
+    width: 350px;
+    height: 375px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+  }
+  .top {
+    background-image: url(./images/bg-pattern-card.svg);
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    right: 125px;
+    bottom: 180px;
+    border: solid white 5px;
+  }
+  .mid {
+    margin-top: 50px;
+  }
+
+  .bottom {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-top: rgb(214, 203, 203) solid 1px;
+  }
+  p {
+    margin: 0%; font-size: 14px;
+  }
+  .lgr,
+  span {
+    color: hsl(0, 0%, 59%);
+  }
+  @media (min-width: 375px) {
+    body { background-position: -82vw -53vh, 48vw 47vh;
+      
+    }
+  }
+ 
